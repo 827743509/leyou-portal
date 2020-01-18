@@ -247,7 +247,7 @@ Date.prototype.format = function (format) {
 var has = Object.prototype.hasOwnProperty;
 
 var defaults = {
-    allowDots: true,
+    allowDots: false,
     allowPrototypes: false,
     arrayLimit: 20,
     decoder: utils.decode,
@@ -530,13 +530,6 @@ const ly = leyou = {
             return decodeURI(r[2]);
         }
         return "";
-    },
-
-    /**
-     * 验证用户是否登录授权
-     */
-    verifyUser(){
-        return this.http.get("/auth/verify");
     },
     /**
      * 发起ajax请求工具，底层依然是axios
