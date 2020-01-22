@@ -1,48 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75aa97cf-a3ce-4141-af54-a1f3bc7105d4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/qrcode.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="75aa97cf-a3ce-4141-af54-a1f3bc7105d4" name="Default" comment="前台页面的第一次提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/webbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/webbase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/widget-jquery.autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/widget-jquery.autocomplete.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/getOrderInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-evaluate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-receive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-send.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-send.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-orderDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-orderDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-person-collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-person-collect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-person-footmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-person-footmark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address-complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address-complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address-phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address-phone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-safe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/czFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/czFunction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/sm-city-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/sm-city-picker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/jquery.autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/jquery.autocomplete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/payfail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/paysuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/success-cart.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +34,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leyou" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,6 +45,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RunManager">
@@ -157,44 +123,50 @@
       <workItem from="1579171816254" duration="206000" />
       <workItem from="1579172075678" duration="2099000" />
       <workItem from="1579225054012" duration="13846000" />
-      <workItem from="1579349403429" duration="630000" />
+      <workItem from="1579349403429" duration="1377000" />
+      <workItem from="1579397625408" duration="4003000" />
+      <workItem from="1579498934064" duration="23000" />
+      <workItem from="1579514981965" duration="476000" />
+      <workItem from="1579580649920" duration="1247000" />
+      <workItem from="1579663252335" duration="1992000" />
     </task>
+    <task id="LOCAL-00001" summary="前台页面的第一次提交">
+      <created>1579353495851</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579353495851</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="前台页面的第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台页面的第一次提交" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1579353366321">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1579353504453">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579353366321" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1579353504453" />
+    <state x="317" y="0" key="CommitChangelistDialog2" timestamp="1579353494727">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="317" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579353494727" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1579664051511">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579664051511" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1579353964793">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579353964793" />
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1579663262474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="186" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579663262474" />
   </component>
 </project>

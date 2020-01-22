@@ -122,7 +122,7 @@
                 <div class="fl key">{{f.k}}</div>
                 <div class="fl value">
                     <ul class="type-list">
-                        <li v-for="(o,j) in f.options" :key="j">
+                        <li v-for="(o,j) in f.options" :key="j" @click="selectFilter(f.k,o)">
                             <a>{{o.name}}</a>
                         </li>
                     </ul>
@@ -133,8 +133,8 @@
                 <div class="fl key brand">{{f.k}}</div>
                 <div class="value logos">
                     <ul class="logo-list">
-                        <li v-for="(o,j) in f.options" :key="j" v-if="o.image"><img :src="o.image" /></li>
-                        <li style="text-align: center" v-else><a style="line-height: 30px; font-size: 12px" href="#">{{o.name}}</a></li>
+                        <li v-for="(o,j) in f.options" :key="j" v-if="o.image" @click="selectFilter(f.k,o)"><img :src="o.image" /></li>
+                        <li style="text-align: center" v-else @click="selectFilter(f.k,o)"><a style="line-height: 30px; font-size: 12px" href="#">{{o.name}}</a></li>
                     </ul>
                 </div>
                 <div class="fl ext">
@@ -177,7 +177,7 @@
                     <li class="yui3-u-1-5" v-for="(goods,index) in goodsList" :key="index">
                         <div class="list-wrap">
                             <div class="p-img">
-                                <a href="item.html" target="_blank"><img :src="goods.selected.image" height="200"/></a>
+                                <a :href="'item/'+goods.id+'.html'" target="_blank"><img :src="goods.selected.image" height="200"/></a>
                                 <ul class="skus">
                                     <li :class="{selected: goods.selected.id==sku.id}" v-for="(sku,j) in goods.skus " @mouseover="goods.selected=sku"><img  :src="sku.image"></li>
 
@@ -326,7 +326,8 @@
             ly,
             search:{
                 key:"",
-                page:1
+                page:1,
+                filter:{}
             },
             goodsList:[],
             totalPage:1,
@@ -339,6 +340,7 @@
             }
           const  search=ly.parse(location.search.substring(1));
             search.page=parseInt(search.page)||1;
+            search.filter=search.filter||{};
           this.search=search;
 
           this.loadData();
@@ -374,6 +376,12 @@
                             k:"品牌",
                             options:data.brands
                         })
+                        data.specs.forEach(spec=>{
+                          spec.options=  spec.options.map(o=>({
+                                name:o
+                            }))
+                            this.filters.push(spec);
+                        })
                     }
                 ).catch(()=>{
 
@@ -398,6 +406,16 @@
                 if(this.search.page<this.totalPage){
                     this.search.page++
                 }
+            },
+            selectFilter(k,o){
+                let obj={};
+                Object.assign(obj,this.search);
+                if(k=="品牌"||k=="分类"){
+                    obj.filter=o.id;
+                }else {
+                    obj.filter[k]=o.name
+                }
+               this.search=obj;
             }
         },
         components:{
